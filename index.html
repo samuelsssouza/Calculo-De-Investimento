@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Investimento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Cálculo de Investimento</h1>
+    <form id="formulario">
+       
+        <main>
+
+            <div>
+                <label for="valorInicial">Valor Inicial</label>
+                <input type="number" id="valorInicial">
+            </div>
+
+            <div>
+                <label for="taxaDeJuros">Taxa de Juros</label>
+                <input type="number" id="taxaDeJuros">
+            </div>
+
+            <div>
+                <label for="periodo">Periodo</label>
+                <input type="number" id="periodo">
+            </div>
+
+            <div>
+                <button id="btn">Calcular</button><br>        
+                <label >Rendimento Final:</label>
+                <input type="text" id="resultado">
+
+            </div>
+
+        </main>
+        
+        <div id="ladoDireito">
+                <img src="images/bolsa-de-dinheiro.png" class="alvo">
+        </div>
+
+    </form>
+
+    <script src="js/index.js"> </script>
+</body>
+</html>
